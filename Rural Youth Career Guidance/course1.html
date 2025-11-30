@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+	.lesson-list {
+            background-color: #f4f4f4;
+            width: 250px;
+            height: 100vh;
+            float: left;
+            overflow-y: auto; 
+        }
+	.lesson-list h2 {
+            padding: 10px;
+            margin: 0;
+            background-color: #ddd;
+        }
+
+	 .lesson-list ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .lesson-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .lesson-list li:hover {
+            background-color: #ccc;
+            cursor: pointer;
+        }
+
+
+
+	.container1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            padding: 20px;
+        }
+	.card {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+	 .card h2 {
+            margin-top: 0;
+        }
+
+	.top-left-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9999; /* Adjust z-index as needed */
+        }
+
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .sidebar {
+            background-color: #f4f4f4;
+            width: 250px;
+            height: 100vh;
+            float: left;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .sidebar li:hover {
+            background-color: #ddd;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>JavaScript for Beginners</h1>
+    </div>
+    <div class="sidebar">
+            
+
+	 <div class="lesson-list">
+        <h2>Lessons</h2>
+        <ul>
+            <li>Lesson 1</li>
+            <li>Lesson 2</li>
+            <li>Lesson 3</li>
+        </ul>
+    </div>
+    </div>
+
+
+    <div class="main-content">
+	    </div>
+
+
+ <div class="container1">
+        <div class="card">
+              <h2>Introduction for JavaScript</h2>
+              <a href="v1.mp4">Introduction</a>
+        </div>
+        <div class="card">
+            <h2>Introduction for JavaScript</h2>
+            <a href="#"></a>
+        </div>
+        <div class="card">
+            <h2>Dashboard Item 3</h2>
+	    <a href="#"></a>
+            </div>
+        <div class="card">
+            <h2>Dashboard Item 4</h2>
+            <a href="#"></a>
+        </div>
+	 <div class="card">
+            <h2>Dashboard Item 4</h2>
+            <a href="#"></a>
+        </div>
+        
+	 <div class="card">
+            <h2>Dashboard Item 4</h2>
+            <a href="#"></a>
+        </div>
+        
+	 <div class="card">
+            <h2>Dashboard Item 4</h2>
+            <a href="#"></a>
+        </div>
+	 <div class="card">
+            <h2>Dashboard Item 4</h2>
+            <a href="#"></a>
+        </div>
+        
+
+     </div>
+               
+
+
+
+
+
+	<div class="container">
+        <img src="images/logo.png" alt="Image" class="top-left-image">
+        <!-- Your other content here -->
+    </div>
+</body>
+</html>

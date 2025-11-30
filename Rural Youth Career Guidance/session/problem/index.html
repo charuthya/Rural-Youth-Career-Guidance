@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Coding Challenges</h1>
+        <ul class="challenge-list">
+            <?php foreach ($challenges as $challenge): ?>
+                <li>
+                    <a href="challenge.php?id=<?php echo $challenge['id']; ?>">
+                        <?php echo htmlspecialchars($challenge['title']); ?>
+                    </a>
+                    <p><?php echo htmlspecialchars($challenge['description']); ?></p>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</body>
+</html>
